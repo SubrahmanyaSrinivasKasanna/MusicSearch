@@ -1,0 +1,10 @@
+framework module RestAPI {
+  umbrella header "RestAPI.h"
+
+  export *
+  module * { export * }
+}
+
+module RestAPI.Swift {
+    header "RestAPI-Swift.h"
+}
